@@ -1,0 +1,44 @@
+.main-screen {
+    -fx-background-color: #264d73;
+    -fx-padding: 30px;
+    -fx-spacing: 5px;
+    -fx-alignment: BASELINE_CENTER;
+}
+
+.choose-directory {
+    -fx-background-color: lightgrey;
+    -fx-font-weight: bold;
+    -fx-pref-width: 200px;
+}
+
+.choose-directory:hover {
+    -fx-opacity: 70%;
+}
+
+.files-to-copy-label {
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+}
+
+.amount-section {
+    -fx-padding: 20px;
+    -fx-spacing: 5px;
+    -fx-alignment: CENTER;
+}
+
+.result {
+    -fx-padding: 15px;
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+}
+
+.copy-button {
+    -fx-background-color: #ff9900;
+    -fx-font-weight: bold;
+    -fx-text-fill: white;
+    -fx-font-size: 20px;
+}
+
+.copy-button:hover {
+    -fx-opacity: 70%;
+}
